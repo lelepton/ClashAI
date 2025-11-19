@@ -8,6 +8,17 @@ A ideia é simples: você escolhe o **tema**, define **quem participa** e deixa 
 
 -----
 
+## 🛠️ Tecnologias Utilizadas
+
+O projeto é desenvolvido inteiramente em **Python** e utiliza o seguinte ecossistema:
+
+* **Python:** Linguagem de programação principal.
+* **Google Gemini API:** O modelo de linguagem **`gemini-2.5-flash`** é usado para gerar as falas, interpretando as personalidades (System Instructions) definidas no projeto.
+* **`google-genai`:** O **SDK oficial do Google AI para Python**, usado para interagir com a API.
+* **`python-dotenv`:** Usado para carregar a chave da API de um arquivo `.env`, mantendo as credenciais seguras e fora do código-fonte.
+
+-----
+
 ## 🚀 Instalação e Configuração
 
 Siga os passos abaixo para colocar o Clash AI para rodar na sua máquina.
