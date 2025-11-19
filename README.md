@@ -79,7 +79,7 @@ O Clash AI utiliza a API Gemini do Google para gerar as falas das personas.
 
     ```bash
     # Conteúdo do arquivo .env
-    GEMINI_API_KEY= sua_chave_da_api
+    GEMINI_API_KEY=sua_chave_da_api
     ```
 
     *Para exemplo de formato, você pode checar o arquivo `.env-example`.*
