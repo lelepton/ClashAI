@@ -1,5 +1,5 @@
 import os # importamos o módulo os para acessar variáveis de ambiente
-from personas import PERSONAS # importamos o dicionário de personas
+from functions_api.personas import PERSONAS # importamos o dicionário de personas
 from google import genai # importamos a biblioteca genai da Google Gemini
 from dotenv import load_dotenv # importamos a função para carregar variáveis de ambiente
 

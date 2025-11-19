@@ -1,5 +1,5 @@
-from api import gerar_fala # importamos a função geradora de falas das IAs
-from personas import PERSONAS # importamos o dicionário de personas disponíveis
+from functions_api.api import gerar_fala # importamos a função geradora de falas das IAs
+from functions_api.personas import PERSONAS # importamos o dicionário de personas disponíveis
 
 def menu():
     '''função que apenas exibe o menu de personas disponíveis'''
