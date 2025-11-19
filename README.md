@@ -111,9 +111,9 @@ O programa irá guiá-lo para escolher o **tema** do debate e as **duas personas
 Veja como é a experiência de debate no terminal com diferentes personas:
 
 ### Exemplo de Uso:
-![Menu de Escolha de Personas](/exemplos/menu.png)
+![Menu de Escolha de Personas](/assets/menu.png)
 *Captura de tela mostrando o menu principal para seleção das personas.*
 
 ### Debate em Ação:
-![Debate entre Comediante e Adolescente](/exemplos/debate.png)
+![Debate entre Comediante e Adolescente](/assets/debate.png)
 *Uma parte do debate em andamento entre duas IAs, mostrando suas falas.*
