@@ -1,6 +1,6 @@
-# 🤖 Clash AI: Simulador de Debates entre Personas de IA
+## 🤖 Clash AI: Simulador de Debates entre Personas de IA
 
-O **Clash AI** é um projeto que simula debates dinâmicos entre diferentes "personas" de IA.
+O **Clash AI** é um projeto que simula debates dinâmicos entre diferentes “personas” de IA.
 
 Cada personagem tem sua própria forma de pensar, argumentar e reagir, criando diálogos que podem ir do lógico ao filosófico, do caótico ao extremamente técnico — tudo dependendo de como você configurar.
 
@@ -19,6 +19,12 @@ Abra seu terminal ou prompt de comando e clone o projeto:
 ```bash
 git clone https://github.com/lelepton/ClashAI.git
 cd ClashAI
+```
+
+Abra o projeto em sua IDE (Ambiente de Desenvolvimento Integrado) preferida. Por exemplo, se estiver usando o **VS Code**, digite:
+
+```bash
+code .
 ```
 
 ### 2\. Configurar o Ambiente Virtual
@@ -62,7 +68,7 @@ O Clash AI utiliza a API Gemini do Google para gerar as falas das personas.
 
     ```bash
     # Conteúdo do arquivo .env
-    GEMINI_API_KEY="SUA_CHAVE_DA_API"
+    GEMINI_API_KEY="sua_chave_da_api"
     ```
 
     *Para exemplo de formato, você pode checar o arquivo `.env-example`.*
@@ -86,3 +92,17 @@ python3 main.py
 ```
 
 O programa irá guiá-lo para escolher o **tema** do debate e as **duas personas** que participarão do confronto\!
+
+-----
+
+## 📸 Demonstração
+
+Veja como é a experiência de debate no terminal com diferentes personas:
+
+### Exemplo de Uso:
+![Menu de Escolha de Personas](/exemplos/menu.png)
+*Captura de tela mostrando o menu principal para seleção das personas.*
+
+### Debate em Ação:
+![Debate entre Comediante e Adolescente](/exemplos/debate.png)
+*Uma parte do debate em andamento entre duas IAs, mostrando suas falas.*
